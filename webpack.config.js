@@ -151,6 +151,16 @@ module.exports = {
               outputPath: 'assets/',
           },
       },
+      // "file" loader makes sure assets end up in the `build` folder.
+      // When you `import` an asset, you get its filename.
+      {
+        // test: [/\.eot$/, /\.ttf$/, /\.svg$/, /\.woff$/, /\.woff2$/],
+        test: [/\.eot$/, /\.ttf$/, /\.woff$/, /\.woff2$/],
+        loader: require.resolve('file-loader'),
+        options: {
+          name: 'static/media/[name].[hash:8].[ext]',
+        },
+      },
     ]
   },
 
