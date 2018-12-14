@@ -48,7 +48,7 @@ npm add -D babel-plugin-transform-es2015-modules-commonjs
 # jest --init
 
 ## eslint
-npm add -D eslint babel-eslint
+npm add -D eslint babel-eslint eslint-plugin-react
 
 # git init
 # git add -A
