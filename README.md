@@ -1,5 +1,6 @@
 ```sh
 git clone https://github.com/dkarmalita/template-react.git
+cd template-react
 npx ./scripts/app-init.sh
 # npx ./scripts/app-clean.sh
 ```
