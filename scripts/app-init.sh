@@ -50,6 +50,9 @@ npm add -D babel-plugin-transform-es2015-modules-commonjs
 ## eslint
 npm add -D eslint babel-eslint eslint-plugin-react
 
+## stylelint
+npm add -D postcss stylelint stylelint-config-standard
+
 # git init
 # git add -A
 # git commit -m [Initial]

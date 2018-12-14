@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development --hot",
     "build": "webpack --mode=production",
-    "lint": "eslint src",
+    "lint:js": "eslint src --ext .js --ext .jsx",
+    "lint:css": "stylelint src/**/*.scss",
     "test": "jest"
   },
   "engines": {
