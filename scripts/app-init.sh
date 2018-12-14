@@ -28,7 +28,8 @@ npm add -D @babel/plugin-proposal-class-properties
 npm add -D autoprefixer css-loader \
 node-sass postcss-easy-import postcss-loader \
 sass-loader style-loader \
-url-loader
+url-loader \
+file-loader
 
 ## Usefu webpack plugins
 npm add -D clean-webpack-plugin \
@@ -45,6 +46,9 @@ npm add -D jest
 npm add -D babel-jest babel-core regenerator-runtime
 npm add -D babel-plugin-transform-es2015-modules-commonjs
 # jest --init
+
+## eslint
+npm add -D eslint babel-eslint
 
 # git init
 # git add -A
