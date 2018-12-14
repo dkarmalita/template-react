@@ -10,3 +10,4 @@ npx ./scripts/app-init.sh
 * babel@7
 * sass (scss) support
 * jest@^23.6.0
+* eslint@^5.10.0
