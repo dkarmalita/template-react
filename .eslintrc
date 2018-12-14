@@ -1,7 +1,17 @@
 {
   "parser": "babel-eslint",
+  "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+  ],
   "env": {
     "browser": true,
+  },
+  "globals": {
+    "process": false,
+    "module": false,
+    "it": false,
+    "expect": false,
   },
   "rules": {
     "no-console": 1,
