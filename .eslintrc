@@ -12,6 +12,8 @@
     "module": false,
     "it": false,
     "expect": false,
+    "require": false,
+    "__dirname": false,
   },
   "rules": {
     "no-console": 1,
