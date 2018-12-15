@@ -11,3 +11,4 @@ npx ./scripts/app-init.sh
 * sass (scss) support
 * jest@^23.6.0
 * eslint@^5.10.0
+* stylelint@^9.9.0

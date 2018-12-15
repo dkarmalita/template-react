@@ -35,8 +35,9 @@ file-loader
 npm add -D clean-webpack-plugin \
 copy-webpack-plugin \
 compression-webpack-plugin \
-html-webpack-plugin \
-react-hot-loader
+html-webpack-plugin
+
+npm add -S react-hot-loader
 
 ## Core dependensies setup
 npm add -S babel-polyfill react react-dom
