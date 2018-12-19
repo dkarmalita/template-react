@@ -17,6 +17,13 @@ npm add -D @babel/plugin-proposal-object-rest-spread
 # npm add -D babel-plugin-transform-class-properties
 npm add -D @babel/plugin-proposal-class-properties
 
+## Support of decorators
+# Please note that, by default, it acts according to "new" specification.
+# You can get the legasy support using this instruction:
+# https://babeljs.io/docs/en/babel-plugin-proposal-decorators#legacy
+# https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy#babel--7x
+npm add -D @babel/plugin-proposal-decorators
+
 ## Support flow
 # npm add -D @babel/preset-flow
 # npm add -D @babel/plugin-transform-flow-strip-types
@@ -44,12 +51,18 @@ npm add -S babel-polyfill react react-dom
 
 ## Jest
 npm add -D jest
-npm add -D babel-jest babel-core regenerator-runtime
-npm add -D babel-plugin-transform-es2015-modules-commonjs
+npm add -D babel-jest babel-core@^7.0.0-bridge.0 @babel/core regenerator-runtime
+# ref: https://jestjs.io/docs/en/getting-started#using-babel
+npm add -D eslint-plugin-jest
+# npm add -D babel-jest # babel-core regenerator-runtime
+# npm add -D babel-plugin-transform-es2015-modules-commonjs
 # jest --init
 
 ## eslint
 npm add -D eslint babel-eslint eslint-plugin-react
+# npm add -D eslint-config-airbnb
+# npm add -D eslint-plugin-jsx-a11y
+# npm add -D slint-plugin-import
 
 ## stylelint
 npm add -D postcss stylelint stylelint-config-standard
